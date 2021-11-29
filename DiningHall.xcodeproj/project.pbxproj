@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		44E4F149275560AC00B4DFBE /* DiningHallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4F148275560AC00B4DFBE /* DiningHallApp.swift */; };
-		44E4F14B275560AC00B4DFBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4F14A275560AC00B4DFBE /* ContentView.swift */; };
 		44E4F14D275560AE00B4DFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E4F14C275560AE00B4DFBE /* Assets.xcassets */; };
 		44E4F150275560AE00B4DFBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E4F14F275560AE00B4DFBE /* Preview Assets.xcassets */; };
+		44E4F1592755674400B4DFBE /* StartpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E4F1582755674400B4DFBE /* StartpageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44E4F145275560AC00B4DFBE /* DiningHall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiningHall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E4F148275560AC00B4DFBE /* DiningHallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallApp.swift; sourceTree = "<group>"; };
-		44E4F14A275560AC00B4DFBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44E4F14C275560AE00B4DFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E4F14F275560AE00B4DFBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44E4F1582755674400B4DFBE /* StartpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartpageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		44E4F157275560E800B4DFBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				44E4F14A275560AC00B4DFBE /* ContentView.swift */,
+				44E4F1582755674400B4DFBE /* StartpageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E4F14B275560AC00B4DFBE /* ContentView.swift in Sources */,
+				44E4F1592755674400B4DFBE /* StartpageView.swift in Sources */,
 				44E4F149275560AC00B4DFBE /* DiningHallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

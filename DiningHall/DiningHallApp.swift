@@ -11,7 +11,7 @@ import SwiftUI
 struct DiningHallApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartpageView()
         }
     }
 }
